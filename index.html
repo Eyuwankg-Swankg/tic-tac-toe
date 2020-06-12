@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{XO}</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>tic-tac-toe</h1>
+      <div id="player">name</div>
+    </header>
+    <main>
+      <div class="flex">
+        <div class="container">
+          <button onclick="game(this,0,0)"></button>
+          <button onclick="game(this,0,1)"></button>
+          <button onclick="game(this,0,2)"></button>
+          <button onclick="game(this,1,0)"></button>
+          <button onclick="game(this,1,1)"></button>
+          <button onclick="game(this,1,2)"></button>
+          <button onclick="game(this,2,0)"></button>
+          <button onclick="game(this,2,1)"></button>
+          <button onclick="game(this,2,2)"></button>
+        </div>
+      </div>
+      <div class="reload">
+        <button id="reload" onclick="reload()">Reload</button>
+      </div>
+    </main>
+    <footer class="bottom">
+      <p style="text-align: center;">Created by Eyuwankg</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

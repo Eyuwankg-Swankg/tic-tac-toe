@@ -1,0 +1,60 @@
+body {
+  background-color: darkcyan;
+  margin: 0px;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+  margin: 40px;
+  color: snow;
+  font-size: 60px;
+}
+#player {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: darkcyan;
+}
+.container {
+  display: grid;
+  background-color: rgba(0,0,0,0.6);
+  grid-template-columns: 100px 100px 100px;
+  grid-row-gap: 3px;
+  grid-column-gap: 3px;
+  box-shadow:2px 2px 40px rgba(30,30,0,0.6);
+}
+.container > button {
+  width: 100px;
+  color: #115b88;
+  height: 100px;
+  background-color: #00bbbf;
+  font-size: 90px;
+  cursor: pointer;
+}
+.container > button:hover {
+  background-color:#00bbaf;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.reload {
+  display: flex;
+  justify-content: center;
+}
+.bottom {
+  margin-top: 50px;
+  color: aquamarine;
+}
+
+#reload {
+  padding: 1%;
+  border-radius: 30px;
+  border-color: #00bbbf;
+  background-color: rgba(52, 235, 195, 0.5);
+  color: snow;
+  font-size: 18px;
+}
