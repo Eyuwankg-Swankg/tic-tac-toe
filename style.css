@@ -1,5 +1,5 @@
 body {
-  background-color: darkcyan;
+  background-image: linear-gradient(to right bottom, #337386, #6f35bb);
   margin: 0px;
 }
 h1 {
@@ -12,28 +12,34 @@ h1 {
 #player {
   text-align: center;
   font-size: 40px;
+  font-weight: bold;
   margin-top: 20px;
   margin-bottom: 30px;
-  color: darkcyan;
+  color: rgb(214, 169, 23);
+  letter-spacing: 3px;
 }
 .container {
   display: grid;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   grid-template-columns: 100px 100px 100px;
   grid-row-gap: 3px;
   grid-column-gap: 3px;
-  box-shadow:2px 2px 40px rgba(30,30,0,0.6);
+  box-shadow: 2px 2px 40px rgba(30, 30, 0, 0.6);
 }
 .container > button {
   width: 100px;
   color: #115b88;
   height: 100px;
-  background-color: #00bbbf;
+  background-color: #c98a50;
   font-size: 90px;
   cursor: pointer;
 }
 .container > button:hover {
-  background-color:#00bbaf;
+  background-color: #da7c25;
+}
+
+.container > button:focus {
+  outline: none;
 }
 .flex {
   display: flex;
@@ -47,14 +53,22 @@ h1 {
 }
 .bottom {
   margin-top: 50px;
+}
+
+.bottom p{
   color: aquamarine;
+  font-weight:bold;
+  letter-spacing:2px;
 }
 
 #reload {
   padding: 1%;
   border-radius: 30px;
-  border-color: #00bbbf;
-  background-color: rgba(52, 235, 195, 0.5);
+  width:10%;
+  border-color: #0073bf;
+  background-color: rgba(6, 125, 223, 1);
   color: snow;
+  font-weight: bold;
+  letter-spacing:2px;
   font-size: 18px;
 }

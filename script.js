@@ -20,7 +20,6 @@ while (player2 == undefined || player2 == null || player2 == "")
 let name = document.getElementById("player");
 
 name.innerHTML = player1 + "(X) vs " + player2 + "(O)";
-name.style.color = "darkkhaki";
 
 //function for x,o buttons
 function game(element, x, y) {
@@ -31,7 +30,7 @@ function game(element, x, y) {
     count++;
     if (count > 2) flag = end();
     if (flag == "X") {
-      name.innerHTML = `${player1} Wins`;
+      name.innerHTML = `${player1} Wins!!!`;
       game_ends = false;
     }
     if (flag == "O") {
